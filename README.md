@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import setNonEnumerableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs';
+import setNonEnumerableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.3-esm/index.mjs';
 ```
 
 #### setNonEnumerableReadOnly( obj, prop, value )
@@ -86,7 +86,7 @@ obj.foo = 'boop';
 <body>
 <script type="module">
 
-import setNonEnumerableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs';
+import setNonEnumerableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.3-esm/index.mjs';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
